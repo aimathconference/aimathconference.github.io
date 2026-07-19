@@ -12,8 +12,7 @@ The first three days of this workshop will provide a crash course in computation
 The workshop will run **Wednesday, October 28th to Sunday, November 1st** in *Santa Cruz, California*. More details on venue location to come.
 
 ## Funding and Participation
-In order to apply to participate in this workshop, please fill out [this form](https://forms.gle/kQbjjkLB7dz3Zsry5) by **August 14th, 5:00 PM PDT**.
-Thanks to generous support from the [AI for Math Fund](https://www.renaissancephilanthropy.org/ai-for-math-fund) we will be able to provide travel and lodging support for all participants to this workshop.
+To register for this workshop, please fill out [this form](https://forms.gle/kQbjjkLB7dz3Zsry5). If you are applying for funding, please submit your application by **August 14th, 5:00 PM PDT**.
 
 
 ## Organizers:
