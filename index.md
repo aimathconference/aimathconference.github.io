@@ -12,7 +12,7 @@ The first three days of this workshop will provide a crash course in computation
 The workshop will run **Wednesday, October 28th to Sunday, November 1st** in *Santa Cruz, California*. More details on venue location to come.
 
 ## Funding and Participation
-To register for this workshop, please fill out [this form](https://forms.gle/kQbjjkLB7dz3Zsry5). If you are applying for funding, please submit your application by **August 30th, 5:00 PM PDT**.
+To register for this workshop, please fill out [this form](https://forms.gle/kQbjjkLB7dz3Zsry5). If you are applying for funding, please submit your application by **September 1st, 5:00 PM PDT**.
 
 
 ## Organizers:
