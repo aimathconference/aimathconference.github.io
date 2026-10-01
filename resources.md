@@ -85,9 +85,9 @@ If you don't have hardware that is sufficient for your needs, you can try runnin
 If you are a researcher at a US university or nonprofit, you may qualify for access to an LLM namespace with the [National Research Platform](https://nrp.ai/), which can provide you with an API endpoint for use in your research.
 
 **Examples** - The following examples are Jupyter notebooks designed to (minimally) show you that interacting with an LLM programmatically has enormous potential beyond what you might expect if you've only used a chat-based LLM before.
-- First, here is a notebook for [calling an API](/assets/jupyter/intro_llm_api_key.ipynb){: download} to perform inference with an API key. 
-- Here is a notebook for a simple [iterative proof development system](/assets/jupyter/iterative_proof_system.ipynb){: download}, which relies on calling an LLM via an API inside a `for` loop. 
-- Here is a notebook for [improving the efficiency of a computational algorithm](/assets/jupyter/iterative_algorithm_optimization.ipynb){: download} in a similar vein.
+- First, here is a notebook for <a href="/assets/jupyter/intro_llm_api_key.ipynb" download>calling an API</a> to perform inference with an API key. 
+- Here is a notebook for a simple <a href="/assets/jupyter/iterative_proof_system.ipynb" download>iterative proof development system</a>, which relies on calling an LLM via an API inside a `for` loop. 
+- Here is a notebook for <a href="/assets/jupyter/iterative_algorithm_optimization.ipynb" download>improving the efficiency of a computational algorithm</a> in a similar vein.
 
 **(Agentic) Harnesses** - An LLM, called from the inside of a while loop, has the option to request information which it can add to its context to help it respond to a given prompt on the next iteration of the loop; this gives the LLM some amount of *agency*.
 A **harness** is an additional program that wraps LLM inference in order to add to the abilities and capabilities of the LLM.
