@@ -9,7 +9,8 @@ Throughout the workshop we will also introduce practical AI tools and demonstrat
 The first three days of this workshop will provide a crash course in computation, the mechanics of large language models, and avenues for the integration of these tools into research. In the final two days, participants will split into working groups with the goal of identifying and posing solutions to AI-tractable problems in their own work.
 
 ## When and where
-The workshop will run **Wednesday, October 28th to Sunday, November 1st** in *Santa Cruz, California*. More details on venue location to come.
+The workshop will run **Wednesday, October 28th to Sunday, November 1st** at the **Fairfield Inn & Suites Santa Cruz - Capitola**.
+For information regarding travel to the venue, please see the [local info](local_info.html) page of this site.
 
 ## Funding and Participation
 To register for this workshop, please fill out [this form](https://forms.gle/kQbjjkLB7dz3Zsry5). If you are applying for funding, please submit your application by **September 1st, 5:00 PM PDT**.
