@@ -22,7 +22,7 @@ Additional resources are provided below; some of these contain more, or more ele
 We recommend that you choose a text editor for making changes to your files and programs. 
 Your terminal is likely already equipped with a simple text editor like [nano](https://www.nano-editor.org/) or [Vim](https://www.vim.org/). 
 The most popular alternative text editor is Microsoft's [Visual Studio Code](https://code.visualstudio.com/); it is very well-developed, the source code is free (as in "freedom"), but the binary distributed on the official website is free (as in "free beer") and captures telemetry data by default.
-You might also be interested in options like [Emacs](https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html) or [Neovim](https://neovim.io/), which have binaries that are free (as in "freedom"), are open-source and do not capture telemetry data, but are typically viewed as more advanced tools when it comes to configuration.
+You might also be interested in options like [Emacs](https://www.gnu.org/software/emacs/) or [Neovim](https://neovim.io/), which have binaries that are free (as in "freedom"), are open-source and do not capture telemetry data, but are typically viewed as more advanced tools when it comes to configuration.
 
 ### **Programming Resources**
 
@@ -57,4 +57,50 @@ You may find it more appealing to use a Jupyter Notebook for some tasks.
 
 ### **LLM Resources**
 
-[Calling an API/Writing a loop]()
+These resources are intended to provide you with a variety of ways for how you can use an LLM (outside of the
+standard chat-interface subscription-based model available through consumer plans at Anthropic, Google, or OpenAI).
+
+Without going into any significant detail, an LLM (**L**arge **L**anguage **M**odel) is a function that takes in a prompt and outputs some text.
+Models can be differentiated by their *architecture* (the concrete implementation of this function) and their *weights* (specific values reached through training that influence how the LLM behaves on a given input).
+There are a variety of models accessible to you right now (including open-source and open-weight models). Many are hosted and available to download from the [Hugging Face](https://huggingface.co/) website. 
+
+**Models** - We point out a couple of examples: [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B), [MiniCPM5-2B](https://huggingface.co/openbmb/MiniCPM5-2B), [GLM-5.3](https://huggingface.co/zai-org/GLM-5.3). Note that models typically display their parameter count (e.g. the 27B in Qwen3.8-27B, or the 2B in MiniCPM5-2B). This number can be used to get a rough estimate on the size of the model: one byte is eight bits; 
+one parameter can be represented as a 16-bit floating point number (FP16 or BF16), an 8-bit floating point number (FP8), in a 4-bit format (INT4 or FP4), or even as a single bit (as well as a number of other formats); a model using 27 billion parameters (27B) at FP4 precision then takes up about 13.5(= 27 * 4 / 8) billion bytes of space, i.e. 13.5 Gigabytes (GB). Most models are loaded fully into memory (e.g. RAM, VRAM, unified memory, or a mix) when they are ran; this is one constraint on which models you'll be able to run on a given piece of hardware (e.g. Qwen3.8-27B can run on many consumer GPUs using FP4 precision or similar, MiniCPM5-2B can run on many consumer laptops at almost all precisions, and you probably can not run the 753B GLM-5.3 model at any precision without a very sophisticated set-up). 
+Other, second-order features will also impact the amount of memory a model needs (e.g. an LLM needs a KV cache, whose size is related to how the model is served and how much context --- roughly the number of tokens a model can cumulatively input and output in one turn --- the model is allowed) so parameter count really is a rough *lower bound*.
+
+Models can exist for different purposes (e.g. for parsing pdf files, for producing accurate Lean code, or for general-purpose user interactions).
+It can be revealing, in some ways, to compare different models on different benchmarks; some prominent math related benchmarking can be found here:
+[MathArena](https://matharena.ai/), [EpochAI](https://epoch.ai/frontiermath). 
+To judge which model you would want to use, however, you'll likely need to test it yourself.
+
+**Inference** - Inference is the process of an LLM producing output to a given prompt.
+There are open-source projects that have been developed to make running LLMs, with varying architectures and weights, very manageable; the two that we can recommend are: [vLLM](https://vllm.ai/) and [llama.cpp](https://llama.app/). 
+Both vLLM and llama.cpp provide an *inference engine*, the program responsible for running a given model. 
+They also provide a number of different points of access to this engine, for example a CLI (command line interface) and an HTTP server with an OpenAI-compatible API.
+This means that you can, for example, enter a prompt directly into the CLI and get a response in your terminal; you can host a model locally and allow anyone on your local network to connect to (and use) the server; or you can write a script that uses an API endpoint, and freely swap the endpoint to other cloud providers as your needs demand.
+
+**Hosting** - When a program runs an LLM, it acts as a *server*; a *client* is a process that wants something from the server (in analogy with how a restaurant might function). Where will the LLM that you want to use run? Will the server be hosted locally (on your local machine) or remotely (on a machine somewhere else, that you possibly do not own)? Everyone can run an LLM hosted locally on their own machine (e.g. MiniCPM5-2B using llama.cpp), but your mileage will vary greatly depending on your hardware.
+
+If you don't have hardware that is sufficient for your needs, you can try running inference on a GPU that is provided by a cloud service. [Google Colab](https://colab.research.google.com/) is a web-based platform for using Jupyter Notebooks; Colab provides free access to an Nvidia Tesla T4 GPU with 16 GB of VRAM, with some restrictions on availability and usage, and paid access to higher end GPUs with less restrictions. 
+If you are a researcher at a US university or nonprofit, you may qualify for access to an LLM namespace with the [National Research Platform](https://nrp.ai/), which can provide you with an API endpoint for use in your research.
+
+**Examples** - The following examples are Jupyter notebooks designed to (minimally) show you that interacting with an LLM programmatically has enormous potential beyond what you might expect if you've only used a chat-based LLM before.
+- First, here is a notebook for [calling an API](/assets/jupyter/intro_llm_api_key.ipynb) to perform inference with an API key. 
+- Here is a notebook for a simple [iterative proof development system](/assets/jupyter/iterative_proof_system.ipynb), which relies on calling an LLM via an API inside a `for` loop. 
+- Here is a notebook for [improving the efficiency of a computational algorithm](/assets/jupyter/iterative_algorithm_optimization.ipynb) in a similar vein.
+
+**(Agentic) Harnesses** - An LLM, called from the inside of a while loop, has the option to request information which it can add to its context to help it respond to a given prompt on the next iteration of the loop; this gives the LLM some amount of *agency*.
+A **harness** is an additional program that wraps LLM inference in order to add to the abilities and capabilities of the LLM.
+A harness may be equipped with a collection of tools that the LLM can use in order to achieve its results; these tools may be passed to the LLM concatenated to an initial prompt and, based on the response of the LLM, called by the harness before returning to the LLM or the user (e.g. "You also have the option to use 
+
+```json
+  {
+    "tool": "bash",
+    "script": "enter your script here" 
+  }
+```
+respond in this format if you want to use this tool"). A harness may also provide quality of life improvements to LLM use (e.g. the ability to summarize long LLM responses, and to continue from the summary, if the LLM goes beyond its context limit).
+
+There are a number of sophisticated harnesses already developed and ready-to-use in your work. LLM and inference providers often develop a harness that can be used with their models (e.g. OpenAI has developed Codex as a harness that you can use with its models, and Anthropic has Claude Code for theirs). There are open-source options as well: [OpenClaw](https://openclaw.ai/) is an agentic harness that popularized the transition to agents; [Hermes](https://hermes-agent.nousresearch.com/) is an agentic harness that saves skills with use; [Pi](https://pi.dev/) is a minimal harness with the ability to read, write, edit, and "bash". A major differentiator between each of these harnesses are their philosophy for use: OpenClaw is very much a complete harness out-of-the-box; Hermes advocates for using their harness as a worker that you can even text commands to; Pi is very bare bones, and advocates for editing the harness itself (just ask your agent to do it) when you want to add a tool, or change a feature.
+
+Using a harness comes with some innate risks (e.g. will the LLM make a tool call to the internet, and be prompt injected by a malicious actor? will it delete all of your files by accident?). However, modern LLMs trained for agentic work are often very capable. You will likely see major productivity gains from using a harness, and we recommend considering the option carefully.
