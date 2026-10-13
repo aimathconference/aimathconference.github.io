@@ -5,7 +5,7 @@ title: Local info
 
 This workshop will take place at the Fairfield Inn & Suites Santa Cruz - Capitola (1255 41st Ave, Capitola, CA 95010) from Oct. 28th to Nov. 1st.
 
-The closest airport to the greater Santa Cruz area is the San José Mineta International Airport (SJC). We will be organizing shuttles to get to the venue on October 27th (the day before the start of the workshop).
+The closest airport to the greater Santa Cruz area is the San José Mineta International Airport (SJC). The best way to get to the venue from the airport is by cab or ridehsare; if you'd like to carpool with another participant, we'd be happy to put you in touch with others arriving to SJC at a similar time.
 
 ![Driving route from San Jose airport to the venue, about 35 miles](/assets/images/route-sjc-to-venue.png)
 
