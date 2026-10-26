@@ -2,6 +2,8 @@
 layout: home
 ---
 
+![Conference Poster](assets/images/conference_poster.png){: style="float:right; margin:0 0 0 1em; width:45%"}
+
 Ongoing advances in artificial intelligence are requiring that mathematicians re-imagine workflows, objective measurement, and our relationship with the discipline.
 To navigate this shift, we are offering an intensive five-day workshop to rapidly introduce research mathematicians to the foundations of AI and computation.
 Throughout the workshop we will also introduce practical AI tools and demonstrate how they can be integrated into mathematical research.
