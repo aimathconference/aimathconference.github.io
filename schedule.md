@@ -125,18 +125,19 @@ using the program in some instances, and showcase some future directions that I 
 <a id="lichtman"></a>
 2:30–3:30 · **Jared Duker Lichtman**
 
-> *Title:* TBA
+> *Title:* Formalization and the future of mathematics
 >
-> *Abstract:* TBA
+> *Abstract:* We are poised to formalize all of known mathematics in the next year. This is the mathematical equivalent of the Human Genome Project. 
+Autoformalization has scaled 5 orders of magnitude growth over the past year: from hundreds of lines of code to 13 million in the proof of Fermat's Last Theorem. Rough estimates put tens of billions of lines, just 3 more orders of magnitude, to cover all mathematics textbooks and literature. Beyond verification for itself, this effort serves as the basis for future discovery.
 
 ## Saturday, October 31
 
 <a id="chatham"></a>
 9:00–10:00 · **Hood Chatham**
 
-> *Title:* TBA
+> *Title:* Webassembly as a platform for mathematical communication
 >
-> *Abstract:* TBA
+> *Abstract:* Software written by mathematicians is often hard to use. Distributing software has historically been a specialized skill that few mathematicians have time to develop. WebAssembly and the Web platform is an extremely reproducible environment and is supported by practically every device. If it works on my machine it probably works everywhere. For this reason, it is very promising for scientific and mathematical communication and education. I will talk about my work getting software to run on WebAssembly. I will also speculate wildly about the potential impact of AI on this.
 
 <a id="abouzaid"></a>
 2:30–3:30 · **Mohammed Abouzaid**
