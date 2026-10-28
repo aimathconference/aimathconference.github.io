@@ -90,9 +90,11 @@ using the program in some instances, and showcase some future directions that I 
 <a id="eisenbud"></a>
 2:30–3:30 · **David Eisenbud**
 
-> *Title:* TBA
+> *Title:* Weierstrass semigroups
 >
-> *Abstract:* TBA
+> *Abstract:* If X is smooth projective curve (or a compact Riemann surface) then the only globally defined regular functions on X are the constants; but if one point is removed there are many regular functions on the rest, each of which has a pole (locally 1/z^n for some n). Since the pole order of a product is the sum of the pole orders, these orders form a numerical semigroup---that is, a subset of the positive integers, closed under addition. Weierstrass proved around 1860 that this semigroup contains all but genus(X) non-negative integers; the semigroups is now called the Weierstrass semigroup of p in X, in his honor. 
+
+> In 1892, Hurwitz asked: What semigroups can actually occur? The full answer is still not known/  I'll explain the history of this problem, and some new results, based on extensive computations, which led to a new criterion using syzygies, applicable to a certain class of semigroups, from my recent work with Frank-Olaf Schreyer 
 
 ## Friday, October 30
 
@@ -136,9 +138,9 @@ using the program in some instances, and showcase some future directions that I 
 <a id="chatham"></a>
 9:00–10:00 · **Hood Chatham**
 
-> *Title:* TBA
+> *Title:* Webassembly as a platform for mathematical communication
 >
-> *Abstract:* TBA
+> *Abstract:* Software written by mathematicians is often hard to use. Distributing software has historically been a specialized skill that few mathematicians have time to develop. WebAssembly and the Web platform is an extremely reproducible environment and is supported by practically every device. If it works on my machine it probably works everywhere. For this reason, it is very promising for scientific and mathematical communication and education. I will talk about my work getting software to run on WebAssembly. I will also speculate wildly about the potential impact of AI on this.
 
 <a id="abouzaid"></a>
 2:30–3:30 · **Mohammed Abouzaid**
