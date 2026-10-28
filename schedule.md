@@ -40,9 +40,9 @@ remainder of the workshop.
 
 1:30–2:30 · **Gunnar Carlsson**
 
-> *Title:* TBA
+> *Title:* Generalized Signal Processing for AI
 >
-> *Abstract:* TBA
+> *Abstract:* Signal processing, i.e. data transformation, is a fundamental component of the mathematical study of data in many classical situations, for example radar, sonar, etc.  There  are specialized tool kits utilizing Fourier analysis, Wavelet analysis, etc.  which are critical to applications.  In this talk, we will consider the corresponding problem for AI tools  such as Convolutional Neural Networks and Transformer models for language processing.  We will show by example what can be achieved in improving performance as measured by generalizability, robustness to noise, and in the case of LLMs average perplexity and feature interpretability.  I will argue that methods such as these are key to addressing many of the problems with the technology, including AI safety and computational efficiency.
 
 2:30–3:30 · **Eoin Mackall**
 
@@ -71,7 +71,7 @@ using the program in some instances, and showcase some future directions that I 
 
 11:00–12:00 · **Skills Session**
 
-> *Session:* TBA
+> *Session:* An hour-long session to get participants familiarized with skills files.
 
 1:30–2:30 · **Patricio Gallardo**
 
