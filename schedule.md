@@ -125,9 +125,9 @@ using the program in some instances, and showcase some future directions that I 
 <a id="lichtman"></a>
 2:30–3:30 · **Jared Duker Lichtman**
 
-> *Title:* TBA
+> *Title:* Formalization and the future of mathematics
 >
-> *Abstract:* TBA
+> *Abstract:* We are poised to formalize all of known mathematics in the next year. This is the mathematical equivalent of the Human Genome Project. Autoformalization has scaled 5 orders of magnitude growth over the past year: from hundreds of lines of code to 13 million in the proof of Fermat's Last Theorem. Rough estimates put tens of billions of lines, just 3 more orders of magnitude, to cover all mathematics textbooks and literature. Beyond verification for itself, this effort serves as the basis for future discovery.
 
 ## Saturday, October 31
 
