@@ -64,9 +64,9 @@ using the program in some instances, and showcase some future directions that I 
 <a id="ballard"></a>
 9:00–10:00 · **Matthew Ballard**
 
-> *Title:* TBA
+> *Title:* Working productively with AI 
 >
-> *Abstract:* TBA
+> *Abstract:* I will discuss how I use AI as part of my research process. 
 
 <a id="topaz"></a>
 10:00–11:00 · **Adam Topaz**
