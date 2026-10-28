@@ -83,9 +83,9 @@ using the program in some instances, and showcase some future directions that I 
 <a id="gallardo"></a>
 1:30–2:30 · **Patricio Gallardo**
 
-> *Title:* TBA
+> *Title:* How AI is changing my research and my students’ training
 >
-> *Abstract:* TBA
+> *Abstract:* I will describe how AI has changed the topics I work on and the way I mentor my students. The main case study is ongoing work relating neural networks to toric geometry, in which human and AI-proposed constructions were compared through explicit calculations. I will also discuss skills for pre-refereeing drafts, when students should and shouldn’t use AI, and the open questions of verification and cost.
 
 <a id="eisenbud"></a>
 2:30–3:30 · **David Eisenbud**
@@ -106,9 +106,11 @@ using the program in some instances, and showcase some future directions that I 
 <a id="trettel"></a>
 10:00–11:00 · **Steve Trettel**
 
-> *Title:* TBA
+> *Title:* Computing the Light Field
 >
-> *Abstract:* TBA
+> *Abstract:* AI coding tools are making projects that once required months of programming practical to undertake. In this talk, we’ll explore one such project from mathematical computer graphics, where the goal is to produce photorealistic images by simulating light. There are two mathematical ingredients: how light travels and scatters through a scene, and how a camera collects it to form an image. Standard path tracing combines these into an unbiased estimator, spending substantial computation to produce an image for a fixed camera.
+
+> We’ll try something more ambitious: compute and store the entire stationary light field, then sample it with a simulated camera, producing photorealistic images in real time as we move through the scene or change focus and aperture. Under standard physical assumptions, this field satisfies an infinite-dimensional fixed-point equation. Computing and storing its solution requires enough GPU and memory-management machinery that I had long wanted to try this project but couldn’t justify the time commitment. Working with coding agents made it possible to hand off much of that implementation and focus on the mathematics itself.
 
 <a id="visualization-session"></a>
 11:00–12:00 · **Visualization Session**
