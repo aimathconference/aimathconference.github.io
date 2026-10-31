@@ -11,7 +11,7 @@ title: Schedule
 | 12:00–1:30 | Lunch | Lunch | Lunch | Lunch | Lunch |
 | 1:30–2:30 | [Gunnar Carlsson](#carlsson) | [Patricio Gallardo](#gallardo) | [Ben Antieau](#antieau) | Group work | Conference end |
 | 2:30–3:30 | [Eoin Mackall](#mackall) | [David Eisenbud](#eisenbud) | [Jared Duker Lichtman](#lichtman) | [Mohammed Abouzaid](#abouzaid) | |
-| 3:30–4:00 | Coffee break | Coffee break | Group work | Group work | |
+| 3:30–4:00 | Coffee break | Coffee break | Group work | Coffee break | |
 | 4:00–5:00 | Brainstorm project topics | Brainstorm, then get into groups for the 2nd half | Group work | [Panel on future of math and AI](#panel) | |
 
 ## Wednesday, October 28
