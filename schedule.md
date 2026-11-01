@@ -120,7 +120,7 @@ using the program in some instances, and showcase some future directions that I 
 <a id="visualization-session"></a>
 11:00–12:00 · **Visualization Session**
 
-> *Session:* TBA
+> *Session:* A session on making mathematical visualizations. After an hour we'll share our progress with other participants. 
 
 <a id="antieau"></a>
 1:30–2:30 · **Benjamin Antieau**
@@ -155,9 +155,7 @@ using the program in some instances, and showcase some future directions that I 
 <a id="panel"></a>
 4:00–5:00 · **Panel**
 
-> *Title:* The future of math and AI
->
-> *Abstract:* TBA
+> The future of math and AI
 
 ## Sunday, November 1
 
