@@ -17,6 +17,9 @@ For information regarding travel to the venue, please see the [local info](local
 ## Funding and Participation
 To register for this workshop, please fill out [this form](https://forms.gle/kQbjjkLB7dz3Zsry5). If you are applying for funding, please submit your application by **September 1st, 5:00 PM PDT**.
 
+## Group Photo
+
+![Group Photo](assets/images/group_photo.jpg)
 
 ## Organizers:
 If you have any questions, please contact one of the organizers:
