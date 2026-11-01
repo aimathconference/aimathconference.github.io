@@ -155,7 +155,9 @@ using the program in some instances, and showcase some future directions that I 
 <a id="panel"></a>
 4:00–5:00 · **Panel**
 
-> The future of math and AI
+> *Title*: The future of math and AI
+>
+> *Description*: A panel on the future of math and AI with Mohammed Abouzaid, David Eisenbud, Patricio Gallardo, and Leilani Gilpin.
 
 ## Sunday, November 1
 
