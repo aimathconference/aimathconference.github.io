@@ -99,7 +99,7 @@ using the program in some instances, and showcase some future directions that I 
 ## Friday, October 30
 
 <a id="brody"></a>
-9:00–10:00 · **Nic Brody**
+9:00–10:00 · **Nic Brody** [\[Slides\]](https://nbrody.github.io/Talks/AlphaCentaur/)
 
 > *Title:* AlphaCentaur: A workspace for human-AI collaboration
 >
