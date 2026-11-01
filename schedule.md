@@ -48,7 +48,7 @@ remainder of the workshop.
 > *Abstract:* Signal processing, i.e. data transformation, is a fundamental component of the mathematical study of data in many classical situations, for example radar, sonar, etc.  There  are specialized tool kits utilizing Fourier analysis, Wavelet analysis, etc.  which are critical to applications.  In this talk, we will consider the corresponding problem for AI tools  such as Convolutional Neural Networks and Transformer models for language processing.  We will show by example what can be achieved in improving performance as measured by generalizability, robustness to noise, and in the case of LLMs average perplexity and feature interpretability.  I will argue that methods such as these are key to addressing many of the problems with the technology, including AI safety and computational efficiency.
 
 <a id="mackall"></a>
-2:30–3:30 · **Eoin Mackall** [\[Slides\]](assets/slides/AI_talk.pdf)
+2:30–3:30 · **Eoin Mackall** [\[Slides\]](assets/slides/AI_Talk.pdf)
 
 > *Title:* On Proofs and Progress
 >
