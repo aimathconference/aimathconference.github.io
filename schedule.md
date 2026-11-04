@@ -123,7 +123,7 @@ using the program in some instances, and showcase some future directions that I 
 > *Session:* A session on making mathematical visualizations. After an hour we'll share our progress with other participants. 
 
 <a id="antieau"></a>
-1:30–2:30 · **Benjamin Antieau**
+1:30–2:30 · **Benjamin Antieau** [\[Slides\]](assets/slides/noether_2026_10_30.pdf)
 
 > *Title:* The forthcoming golden age of mathematics software
 >
