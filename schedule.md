@@ -130,7 +130,7 @@ using the program in some instances, and showcase some future directions that I 
 > *Abstract:*  I will discuss the process I've used for building robust software using agents and talk about a few specific projects, focusing on a new CAS called Noether. This is based on joint work with Deven Manam. 
 
 <a id="lichtman"></a>
-2:30–3:30 · **Jared Duker Lichtman**
+2:30–3:30 · **Jared Duker Lichtman** [\[Slides\]](assets/slides/Formalization.pdf)
 
 > *Title:* Formalization and the future of mathematics
 >
