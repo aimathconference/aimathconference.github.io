@@ -17,7 +17,8 @@ title: Schedule
 ## Wednesday, October 28
 
 <a id="gilpin"></a>
-9:30–10:30 · **Leilani Gilpin**
+9:30–10:30 · **Leilani Gilpin**  [\[Slides\]](assets/slides/AI-and-Math-Primer.pdf)
+
 
 > *Title:* What to Know About AI
 >
@@ -62,7 +63,8 @@ using the program in some instances, and showcase some future directions that I 
 ## Thursday, October 29
 
 <a id="ballard"></a>
-9:00–10:00 · **Matthew Ballard**
+9:00–10:00 · **Matthew Ballard**[\[Slides\]](assets/slides/aimath_capitola.pdf)
+
 
 > *Title:* Working productively with AI 
 >
